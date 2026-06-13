@@ -297,18 +297,24 @@ For support, email support@healthmate.ai or open an issue in the repository.
 - [Database Schema](database/schema.sql)
 - [Architecture Guide](docs/ARCHITECTURE.md)
 
-- ## Developer
 
-**Fathimath Riza**
+## Developer
+
+**Fathimath Riza**  
 B.Tech Computer Science Student
 
 ## Project Status
+
 🚧 Under Development
 
 This project is currently under active development. Additional features, testing, and deployment are in progress.
 
-## Contributions
-- Full-stack application development
-- Backend API implementation
-- Frontend user interface development
-- AI-powered health assistant integration
+## Current Contributions
+
+- Designing the overall system architecture
+- Developing frontend user interfaces using React
+- Implementing backend APIs using Node.js and Express.js
+- Designing and managing the PostgreSQL database
+- Implementing user authentication and authorization
+- Developing AI-powered health assistant features
+- Working on health tracking and consultation modules
