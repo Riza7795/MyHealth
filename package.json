@@ -1,0 +1,47 @@
+{
+  "name": "healthmate-ai",
+  "version": "1.0.0",
+  "description": "HealthMate AI - Smart Health & Lifestyle Assistant with Multi-Role System",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "backend",
+    "frontend",
+    "mobile"
+  ],
+  "scripts": {
+    "install-all": "npm install && npm install --workspace=backend && npm install --workspace=frontend && npm install --workspace=mobile",
+    "dev": "npm run dev --workspace=backend & npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:mobile": "npm run start --workspace=mobile",
+    "build": "npm run build --workspace=backend && npm run build --workspace=frontend && npm run build --workspace=mobile",
+    "build:backend": "npm run build --workspace=backend",
+    "build:frontend": "npm run build --workspace=frontend",
+    "build:mobile": "npm run build --workspace=mobile",
+    "test": "npm run test --workspace=backend && npm run test --workspace=frontend",
+    "test:backend": "npm run test --workspace=backend",
+    "test:frontend": "npm run test --workspace=frontend",
+    "lint": "npm run lint --workspace=backend && npm run lint --workspace=frontend",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "db:migrate": "npm run migrate --workspace=backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": [
+    "health",
+    "ai",
+    "fitness",
+    "wellness",
+    "doctor-consultation",
+    "diet-planning",
+    "mental-health"
+  ],
+  "author": "HealthMate Team",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

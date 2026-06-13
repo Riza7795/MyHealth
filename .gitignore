@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.env.local
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Build
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Dependencies lock (monorepo)
+package-lock.json
+yarn.lock
+
+# Mobile/Expo
+.expo/
+.expo-shared/
+expo-shared/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Backend specific
+backend/uploads/
+backend/.env.local
+
+# Frontend specific
+frontend/.env.local
+
+# Mobile specific
+mobile/.env.local
+mobile/android/
+mobile/ios/

@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "HealthMate AI",
+    "slug": "healthmate-ai",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "healthmate",
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow HealthMate to access your photos",
+          "cameraPermission": "Allow HealthMate to access your camera"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow HealthMate to access your location"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png"
+        }
+      ]
+    ]
+  }
+}
